@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif; }
+
+header .navbar {
+  padding: 10px 30px; }
+  header .navbar .logoNav {
+    width: 50px;
+    height: auto; }
+
+#mainIndex {
+  width: 100%;
+  height: auto; }
+  #mainIndex .slide {
+    width: 100%;
+    height: auto; }
+    #mainIndex .slide img {
+      width: 100%;
+      object-fit: cover; }
+  #mainIndex .productosDest {
+    width: 100%;
+    height: auto;
+    padding: 30px; }
+    #mainIndex .productosDest h2 {
+      padding: 0px 0px 0px 40px; }
+    #mainIndex .productosDest hr {
+      margin: 30px 0px; }
+    #mainIndex .productosDest #destacados {
+      width: 100%;
+      height: 30%;
+      padding: 0px 30px 30px 30px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      /* background-color: plum; */ }
+      #mainIndex .productosDest #destacados .tituloDestacados {
+        width: 100%; }
+        #mainIndex .productosDest #destacados .tituloDestacados h2 {
+          font-size: 100px;
+          font-weight: 900; }
+      #mainIndex .productosDest #destacados .card {
+        width: 20%;
+        height: 100%;
+        border: 0.5px solid rgba(214, 214, 214, 0.445);
+        border-radius: 5px;
+        padding: 30px;
+        box-shadow: 8px 5px 20px #f3f3f3;
+        margin: 10px; }
+        #mainIndex .productosDest #destacados .card .imgCard {
+          width: 100%;
+          height: 25%; }
+          #mainIndex .productosDest #destacados .card .imgCard img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5px; }
+      #mainIndex .productosDest #destacados .tituloCard {
+        width: 100%;
+        height: auto;
+        padding: 16px 0px 0px 0px; }
+        #mainIndex .productosDest #destacados .tituloCard h4 {
+          font-weight: 900; }
+      #mainIndex .productosDest #destacados .textoCard {
+        width: 100%;
+        height: auto;
+        padding: 10px 0px; }
+        #mainIndex .productosDest #destacados .textoCard p {
+          font-weight: 300;
+          font-size: 14px; }
+      #mainIndex .productosDest #destacados .buttons {
+        width: 100%;
+        height: auto; }
+        #mainIndex .productosDest #destacados .buttons a {
+          text-decoration: none; }
+          #mainIndex .productosDest #destacados .buttons a .buttonComprar, #mainIndex .productosDest #destacados .buttons a .buttonDetalles {
+            padding: 7px;
+            width: 120px;
+            background-color: #0441DF;
+            border-radius: 5px;
+            border: none;
+            color: white;
+            font-size: 14px; }
+            #mainIndex .productosDest #destacados .buttons a .buttonComprar:hover, #mainIndex .productosDest #destacados .buttons a .buttonDetalles:hover {
+              transition: all .5s ease;
+              background-color: #002175;
+              color: #ffff; }
+          #mainIndex .productosDest #destacados .buttons a .buttonDetalles {
+            background-color: #ffffff;
+            border: 1px solid #000000;
+            margin-left: 10px;
+            color: #000000; }
+            #mainIndex .productosDest #destacados .buttons a .buttonDetalles:hover {
+              transition: all .5s ease;
+              background-color: #000000;
+              color: #ffff;
+              border: 1px solid #ffffff; }
+
+footer {
+  width: 100%;
+  height: 100%;
+  background-color: #c7c7c7;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  grid-template-areas: "a1 a2 a3"; }
+  footer .logoFooter {
+    padding: 30px 0px;
+    grid-area: a1; }
+    footer .logoFooter a {
+      text-decoration: none; }
+      footer .logoFooter a img {
+        width: 240px;
+        height: auto; }
+  footer .menuFooter {
+    grid-area: a2;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap; }
+    footer .menuFooter li {
+      list-style-type: none;
+      margin-top: 10px; }
+      footer .menuFooter li a {
+        text-decoration: none;
+        color: #000000;
+        font-weight: 500; }
+      footer .menuFooter li:hover {
+        transition: all .5s ease;
+        opacity: 60%; }
+  footer .contactoFooter {
+    grid-area: a3;
+    padding: 30px;
+    background-color: yellow;
+    padding: 30px; }
